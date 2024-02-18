@@ -96,11 +96,20 @@
 </section>
     <style>
         .video-container {
-            text-align: center; /* Center align its children */
+            text-align: center;
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* Center align its children */
         }
 
         .video-container iframe {
-            display: inline-block; /* Display iframe as inline-block */
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+ /* Display iframe as inline-block */
         }
     </style>
 
